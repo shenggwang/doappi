@@ -1,0 +1,9 @@
+  
+version: '3.7'
+services:
+  doappi:
+    container_name: doappi
+    build: .
+    image: doappi:1.0.0
+    network_mode: "host"
+    privileged: true
